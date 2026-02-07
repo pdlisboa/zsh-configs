@@ -3,9 +3,9 @@
 ### Install
 
 ```Bash
-yay -S zsh
+yay -S zsh zsh-autosuggestions zsh-syntax-highlighting atuin fzf starship
 chsh -s $(which zsh)
-git clone git@github.com:pdlisboa/zsh-configs.git ~/config/zsh
+git clone https://github.com/pdlisboa/zsh-configs.git ~/config/zsh
 ln -s ~/.config/zsh/.zshrc ~/.zshrc 
 ```
 
