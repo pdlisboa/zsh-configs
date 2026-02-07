@@ -1,13 +1,11 @@
-## Omarchy ZSH configs
-
-[Omarchy 2.0](https://omarchy.org/) comes default with Bash. But I prefer ZSH (personal preference, Bash is perfectly fine). So I decided to make my own overrides for ZSH.
+##  ZSH configs
 
 ### Install
 
 ```Bash
-yay -S zsh zoxide
+yay -S zsh
 chsh -s $(which zsh)
-git clone https://github.com/akitaonrails/omarchy-zsh.git ~/config/zsh
+git clone git@github.com:pdlisboa/zsh-configs.git ~/config/zsh
 ln -s ~/.config/zsh/.zshrc ~/.zshrc 
 ```
 
